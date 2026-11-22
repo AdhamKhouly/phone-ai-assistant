@@ -309,4 +309,4 @@ And to the patient friend who kept calling me so I could test it.
 **Adham Elkhouly**
 
 - MSBA Student @ Boston University
-- Microsoft Power Platform Functional Consultant Associate
+- AI Student Developer @ Boston University
