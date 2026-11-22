@@ -5,8 +5,8 @@
 <h1 align="center">Phone AI Assistant</h1>
 
 <p align="center">
-  A voice assistant that takes phone calls for me, because I'm deaf and can't.<br>
-  It runs on my MacBook, costs nothing, and only picks up when I tell it to.
+  A voice assistant that handles phone calls for me. I'm deaf, so I built the workaround I needed.
+  It runs locally on my MacBook, costs nothing, and only answers when I tell it to.
 </p>
 
 <p align="center">
