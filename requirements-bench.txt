@@ -1,0 +1,7 @@
+# Only needed to re-run the offline benchmarks in bench/.
+-r requirements-voice.txt
+psutil==7.2.2
+soundfile==0.14.0             # reads the temporary file macOS `say` produces for accent test voices (deleted at once)
+piper-tts==1.8.0              # compared against Kokoro
+mlx-whisper==0.4.3            # compared against whisper.cpp
+useful-moonshine-onnx==20251121

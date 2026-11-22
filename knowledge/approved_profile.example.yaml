@@ -1,0 +1,17 @@
+# Copy to knowledge/approved_profile.yaml (git-ignored) and fill in ONLY what the assistant may say.
+# Anything not listed here is treated as unknown/private.
+public:
+  name: Adham
+  contact_preference: "Text or email"
+  email: ""            # address the assistant may give out
+  sms_number_note: "Text this same number"
+  github: ""           # public GitHub profile URL
+  professional_summary: ""
+  projects: []         # [{name, one_line, url}]
+deliveries:
+  default_instructions: ""   # e.g. "Leave at the front door"
+recruiters:
+  message: "Please email Adham to arrange interviews or scheduling."
+private_never_disclose:
+  - who else he is dealing with
+  - home address unless in deliveries.default_instructions

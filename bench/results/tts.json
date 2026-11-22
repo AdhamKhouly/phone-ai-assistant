@@ -1,0 +1,54 @@
+{
+ "results": [
+  {
+   "engine": "Kokoro int8 (af_heart)",
+   "load_s": 0.48,
+   "first_call_ms": 1109,
+   "first_phrase_median_ms": 217,
+   "first_phrase_p95_ms": 288,
+   "realtime_factor": 0.122,
+   "phone_roundtrip_wer_pct": 2.3,
+   "clean_roundtrip_wer_pct": 2.3
+  },
+  {
+   "engine": "Kokoro fp32 (af_heart)",
+   "load_s": 0.36,
+   "first_call_ms": 293,
+   "first_phrase_median_ms": 402,
+   "first_phrase_p95_ms": 567,
+   "realtime_factor": 0.228,
+   "phone_roundtrip_wer_pct": 2.3,
+   "clean_roundtrip_wer_pct": 3.5
+  },
+  {
+   "engine": "Kokoro fp32 (am_michael)",
+   "load_s": 0.32,
+   "first_call_ms": 311,
+   "first_phrase_median_ms": 433,
+   "first_phrase_p95_ms": 609,
+   "realtime_factor": 0.226,
+   "phone_roundtrip_wer_pct": 3.5,
+   "clean_roundtrip_wer_pct": 3.5
+  },
+  {
+   "engine": "Kokoro fp32 (bf_emma)",
+   "load_s": 0.26,
+   "first_call_ms": 322,
+   "first_phrase_median_ms": 442,
+   "first_phrase_p95_ms": 587,
+   "realtime_factor": 0.243,
+   "phone_roundtrip_wer_pct": 3.5,
+   "clean_roundtrip_wer_pct": 3.5
+  },
+  {
+   "engine": "Piper en_US-lessac-medium",
+   "load_s": 0.17,
+   "first_call_ms": 264,
+   "first_phrase_median_ms": 40,
+   "first_phrase_p95_ms": 61,
+   "realtime_factor": 0.024,
+   "phone_roundtrip_wer_pct": 3.5,
+   "clean_roundtrip_wer_pct": 2.3
+  }
+ ]
+}

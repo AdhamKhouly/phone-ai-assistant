@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 318" width="720" height="318" role="img" aria-label="Median and 95th percentile reply delay for each language model">
+<style>
+  .bg{fill:#fcfcfb} .t1{fill:#0b0b0b} .t2{fill:#52514e} .grid{stroke:#e6e5e0} .band{fill:#f0efec}
+  .s1{fill:#2a78d6} .s2{fill:#eb6834} .link{stroke:#c3c2b7} .ring{stroke:#fcfcfb}
+  text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19} .t1{fill:#f0efec} .t2{fill:#c3c2b7} .grid{stroke:#383835} .band{fill:#262624}
+    .s1{fill:#3987e5} .s2{fill:#d95926} .link{stroke:#52514e} .ring{stroke:#1a1a19}
+  }
+</style>
+<rect class="bg" width="720" height="318" rx="8"/>
+<text class="t1" x="24" y="34" font-size="17" font-weight="600">Reply delay by language model</text>
+<text class="t2" x="24" y="56" font-size="13">Seconds from the caller going quiet to the first sound of the reply. Lower is better.</text>
+<circle class="s1" cx="30" cy="78" r="5"/><text class="t2" x="42" y="82" font-size="13">Median</text>
+<circle class="s2" cx="112" cy="78" r="5"/><text class="t2" x="124" y="82" font-size="13">95th percentile</text>
+<rect class="band" x="392.0" y="94" width="192.0" height="172"/>
+<text class="t2" x="488.0" y="88" font-size="12" text-anchor="middle">target: 1 to 2 s</text>
+<line class="grid" x1="200.0" y1="94" x2="200.0" y2="266"/>
+<text class="t2" x="200.0" y="284" font-size="12" text-anchor="middle">0 s</text>
+<line class="grid" x1="296.0" y1="94" x2="296.0" y2="266"/>
+<text class="t2" x="296.0" y="284" font-size="12" text-anchor="middle">0.5 s</text>
+<line class="grid" x1="392.0" y1="94" x2="392.0" y2="266"/>
+<text class="t2" x="392.0" y="284" font-size="12" text-anchor="middle">1 s</text>
+<line class="grid" x1="488.0" y1="94" x2="488.0" y2="266"/>
+<text class="t2" x="488.0" y="284" font-size="12" text-anchor="middle">1.5 s</text>
+<line class="grid" x1="584.0" y1="94" x2="584.0" y2="266"/>
+<text class="t2" x="584.0" y="284" font-size="12" text-anchor="middle">2 s</text>
+<line class="grid" x1="680.0" y1="94" x2="680.0" y2="266"/>
+<text class="t2" x="680.0" y="284" font-size="12" text-anchor="middle">2.5 s</text>
+<text class="t1" x="186" y="116" font-size="13" text-anchor="end">llama3.2:3b</text>
+<line class="link" x1="407.4" y1="112" x2="550.4" y2="112" stroke-width="2"/>
+<circle class="s1 ring" cx="407.4" cy="112" r="6" stroke-width="2"/>
+<circle class="s2 ring" cx="550.4" cy="112" r="6" stroke-width="2"/>
+<text class="t1" x="186" y="150" font-size="13" text-anchor="end">phi3 (3.8B)</text>
+<line class="link" x1="435.8" y1="146" x2="519.7" y2="146" stroke-width="2"/>
+<circle class="s1 ring" cx="435.8" cy="146" r="6" stroke-width="2"/>
+<circle class="s2 ring" cx="519.7" cy="146" r="6" stroke-width="2"/>
+<text class="t1" x="186" y="184" font-size="13" text-anchor="end" font-weight="600">qwen3:8b  (in use)</text>
+<line class="link" x1="450.8" y1="180" x2="576.9" y2="180" stroke-width="2"/>
+<circle class="s1 ring" cx="450.8" cy="180" r="6" stroke-width="2"/>
+<circle class="s2 ring" cx="576.9" cy="180" r="6" stroke-width="2"/>
+<text class="t1" x="186" y="218" font-size="13" text-anchor="end">gemma3:4b</text>
+<line class="link" x1="455.7" y1="214" x2="578.6" y2="214" stroke-width="2"/>
+<circle class="s1 ring" cx="455.7" cy="214" r="6" stroke-width="2"/>
+<circle class="s2 ring" cx="578.6" cy="214" r="6" stroke-width="2"/>
+<text class="t1" x="186" y="252" font-size="13" text-anchor="end">gemma3:4b, no head start</text>
+<line class="link" x1="601.5" y1="248" x2="646.0" y2="248" stroke-width="2"/>
+<circle class="s1 ring" cx="601.5" cy="248" r="6" stroke-width="2"/>
+<circle class="s2 ring" cx="646.0" cy="248" r="6" stroke-width="2"/>
+</svg>

@@ -1,0 +1,56 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+config/contacts.json
+knowledge/approved_profile.yaml
+# Never store call audio or transcripts
+*.wav
+*.mp3
+*.m4a
+*.flac
+transcripts/
+recordings/
+.DS_Store
+# Python
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+venv/
+env/
+*.egg-info/
+# Node
+node_modules/
+.npm/
+# Mac
+.AppleDouble
+# Secrets and credentials
+.env.*
+!.env.example
+!.env.sample
+credentials.json
+token.json
+secrets.json
+service-account*.json
+*.pem
+*.key
+*.p12
+# Local AI models and caches
+models/
+*.gguf
+*.onnx
+*.safetensors
+*.pt
+*.pth
+.cache/
+# Private call data
+call_logs/
+audio/
+logs/
+*.webm
+# Runtime data
+*.pid
+*.log
+tmp/
+temp/

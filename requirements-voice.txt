@@ -1,0 +1,10 @@
+# Phase 3: local call audio and speech (all free, all run on this Mac). Versions are what was benchmarked.
+-r requirements.txt
+numpy==2.5.5
+scipy==1.18.1
+sounddevice==0.5.6       # audio streams (virtual devices only; see phone_assistant/audio/io.py)
+onnxruntime==1.32.0      # Silero VAD and Kokoro
+kokoro-onnx==0.6.1       # text-to-speech
+pywhispercpp==1.5.1      # speech recognition (whisper.cpp)
+aiohttp==3.14.5          # talks to Ollama on localhost
+PyYAML==6.0.4            # reads knowledge/approved_profile.yaml

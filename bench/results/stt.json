@@ -1,0 +1,285 @@
+{
+ "voices": [
+  "am_michael",
+  "af_bella",
+  "bm_george",
+  "bf_emma",
+  "Rishi",
+  "Moira",
+  "Tessa",
+  "Karen"
+ ],
+ "utterances": 17,
+ "results": [
+  {
+   "engine": "whisper.cpp base.en (fitted ctx)",
+   "load_s": 0.29,
+   "conditions": {
+    "clean": {
+     "wer_pct": 4.2,
+     "median_ms": 32,
+     "p95_ms": 90,
+     "median_ms_short": 28,
+     "median_ms_long": 57
+    },
+    "phone": {
+     "wer_pct": 12.0,
+     "median_ms": 49,
+     "p95_ms": 1853,
+     "median_ms_short": 34,
+     "median_ms_long": 58
+    },
+    "phone+noise15dB": {
+     "wer_pct": 23.1,
+     "median_ms": 52,
+     "p95_ms": 1735,
+     "median_ms_short": 45,
+     "median_ms_long": 57
+    },
+    "phone+noise5dB": {
+     "wer_pct": 34.5,
+     "median_ms": 53,
+     "p95_ms": 986,
+     "median_ms_short": 44,
+     "median_ms_long": 64
+    }
+   },
+   "by_voice": {
+    "am_michael": 21.0,
+    "af_bella": 24.0,
+    "bm_george": 21.6,
+    "bf_emma": 3.6,
+    "Rishi": 7.2,
+    "Moira": 10.8,
+    "Tessa": 3.6,
+    "Karen": 4.2
+   },
+   "interjections_ok": "25/32"
+  },
+  {
+   "engine": "whisper.cpp base.en",
+   "load_s": 0.09,
+   "conditions": {
+    "clean": {
+     "wer_pct": 3.4,
+     "median_ms": 68,
+     "p95_ms": 121,
+     "median_ms_short": 58,
+     "median_ms_long": 88
+    },
+    "phone": {
+     "wer_pct": 3.1,
+     "median_ms": 66,
+     "p95_ms": 122,
+     "median_ms_short": 58,
+     "median_ms_long": 88
+    },
+    "phone+noise15dB": {
+     "wer_pct": 6.4,
+     "median_ms": 65,
+     "p95_ms": 120,
+     "median_ms_short": 57,
+     "median_ms_long": 90
+    },
+    "phone+noise5dB": {
+     "wer_pct": 23.1,
+     "median_ms": 71,
+     "p95_ms": 127,
+     "median_ms_short": 60,
+     "median_ms_long": 90
+    }
+   },
+   "by_voice": {
+    "am_michael": 3.6,
+    "af_bella": 3.6,
+    "bm_george": 3.6,
+    "bf_emma": 1.2,
+    "Rishi": 2.4,
+    "Moira": 1.8,
+    "Tessa": 3.6,
+    "Karen": 5.4
+   },
+   "interjections_ok": "28/32"
+  },
+  {
+   "engine": "whisper.cpp small.en (fitted ctx)",
+   "load_s": 0.21,
+   "conditions": {
+    "clean": {
+     "wer_pct": 2.9,
+     "median_ms": 69,
+     "p95_ms": 207,
+     "median_ms_short": 46,
+     "median_ms_long": 122
+    },
+    "phone": {
+     "wer_pct": 6.9,
+     "median_ms": 67,
+     "p95_ms": 209,
+     "median_ms_short": 48,
+     "median_ms_long": 116
+    },
+    "phone+noise15dB": {
+     "wer_pct": 10.7,
+     "median_ms": 85,
+     "p95_ms": 227,
+     "median_ms_short": 56,
+     "median_ms_long": 118
+    },
+    "phone+noise5dB": {
+     "wer_pct": 27.7,
+     "median_ms": 95,
+     "p95_ms": 1029,
+     "median_ms_short": 60,
+     "median_ms_long": 120
+    }
+   },
+   "by_voice": {
+    "am_michael": 14.4,
+    "af_bella": 11.4,
+    "bm_george": 15.6,
+    "bf_emma": 1.2,
+    "Rishi": 1.8,
+    "Moira": 4.2,
+    "Tessa": 3.0,
+    "Karen": 3.6
+   },
+   "interjections_ok": "29/32"
+  },
+  {
+   "engine": "mlx-whisper base.en",
+   "load_s": 0.54,
+   "conditions": {
+    "clean": {
+     "wer_pct": 3.9,
+     "median_ms": 53,
+     "p95_ms": 101,
+     "median_ms_short": 43,
+     "median_ms_long": 73
+    },
+    "phone": {
+     "wer_pct": 4.0,
+     "median_ms": 51,
+     "p95_ms": 100,
+     "median_ms_short": 43,
+     "median_ms_long": 67
+    },
+    "phone+noise15dB": {
+     "wer_pct": 6.2,
+     "median_ms": 51,
+     "p95_ms": 95,
+     "median_ms_short": 43,
+     "median_ms_long": 68
+    },
+    "phone+noise5dB": {
+     "wer_pct": 24.8,
+     "median_ms": 48,
+     "p95_ms": 94,
+     "median_ms_short": 43,
+     "median_ms_long": 68
+    }
+   },
+   "by_voice": {
+    "am_michael": 4.2,
+    "af_bella": 4.2,
+    "bm_george": 5.4,
+    "bf_emma": 3.6,
+    "Rishi": 3.0,
+    "Moira": 2.4,
+    "Tessa": 4.2,
+    "Karen": 4.8
+   },
+   "interjections_ok": "29/32"
+  },
+  {
+   "engine": "moonshine base",
+   "load_s": 21.72,
+   "conditions": {
+    "clean": {
+     "wer_pct": 12.1,
+     "median_ms": 72,
+     "p95_ms": 213,
+     "median_ms_short": 32,
+     "median_ms_long": 141
+    },
+    "phone": {
+     "wer_pct": 11.2,
+     "median_ms": 61,
+     "p95_ms": 232,
+     "median_ms_short": 38,
+     "median_ms_long": 149
+    },
+    "phone+noise15dB": {
+     "wer_pct": 21.0,
+     "median_ms": 63,
+     "p95_ms": 256,
+     "median_ms_short": 35,
+     "median_ms_long": 145
+    },
+    "phone+noise5dB": {
+     "wer_pct": 40.4,
+     "median_ms": 61,
+     "p95_ms": 239,
+     "median_ms_short": 36,
+     "median_ms_long": 150
+    }
+   },
+   "by_voice": {
+    "am_michael": 4.8,
+    "af_bella": 2.4,
+    "bm_george": 6.0,
+    "bf_emma": 3.6,
+    "Rishi": 3.6,
+    "Moira": 1.2,
+    "Tessa": 4.8,
+    "Karen": 63.5
+   },
+   "interjections_ok": "27/32"
+  },
+  {
+   "engine": "moonshine tiny",
+   "load_s": 14.68,
+   "conditions": {
+    "clean": {
+     "wer_pct": 4.9,
+     "median_ms": 32,
+     "p95_ms": 131,
+     "median_ms_short": 21,
+     "median_ms_long": 98
+    },
+    "phone": {
+     "wer_pct": 5.2,
+     "median_ms": 31,
+     "p95_ms": 118,
+     "median_ms_short": 20,
+     "median_ms_long": 84
+    },
+    "phone+noise15dB": {
+     "wer_pct": 10.3,
+     "median_ms": 31,
+     "p95_ms": 119,
+     "median_ms_short": 21,
+     "median_ms_long": 85
+    },
+    "phone+noise5dB": {
+     "wer_pct": 49.1,
+     "median_ms": 34,
+     "p95_ms": 153,
+     "median_ms_short": 21,
+     "median_ms_long": 98
+    }
+   },
+   "by_voice": {
+    "am_michael": 4.2,
+    "af_bella": 2.4,
+    "bm_george": 3.6,
+    "bf_emma": 7.2,
+    "Rishi": 3.6,
+    "Moira": 4.8,
+    "Tessa": 7.8,
+    "Karen": 8.4
+   },
+   "interjections_ok": "28/32"
+  }
+ ]
+}
